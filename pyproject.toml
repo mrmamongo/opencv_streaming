@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "opencv-streaming"
+version = "0.1.0"
+description = ""
+authors = ["mrmamongo <mramongo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "opencv_streaming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.101.1"
+nats-py = "^2.3.1"
+ormsgpack = "^1.2.6"
+aiogram = "3.0.0b5"
+zstd = "^1.5.5.1"
+opencv-python = "^4.8.0.76"
+numpy = "^1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
