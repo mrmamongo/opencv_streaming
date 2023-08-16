@@ -1,0 +1,11 @@
+services:
+  nats:
+    TODO
+  streaming:
+    TODO
+  telegram-bot:
+    TODO
+  postgres:
+    TODO
+  minio:
+    TODO
